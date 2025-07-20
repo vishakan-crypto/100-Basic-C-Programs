@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int num_1,num_2;
+cout<<"Enter the numbers to be added: \n";
+cin>>num_1;
+cin>>num_2;
+int sum = num_1 + num_2;
+cout<<"The sum of the two numbers are: " << sum << endl;
+return 0;
+}
